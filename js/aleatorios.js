@@ -1,4 +1,4 @@
-function mostrarAleatorios(){
+function mostrarAleatorio(){
     const app = document.getElementById("app");
-    app.innerHTML = "aleatorios";
+    app.innerHTML = "aleatorio";
 }
