@@ -45,3 +45,106 @@ button{
 .c-nav-item:hover{
     color: yellow;
 }
+
+
+/* Fondo y colores generales */
+body {
+    background: linear-gradient(135deg, #00BFFF, #4C9D1F); /* Gradiente Pokémon */
+    font-family: 'Segoe UI', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 30px;
+    background-color: #FFDD00; /* Color de fondo amarillo, inspirado en Pikachu */
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 5px solid #FF5733;
+  }
+  
+  /* Botones de navegación */
+  button {
+    background-color: #FF5733; /* Color de Charmander */
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+  }
+  
+  button:hover {
+    background-color: #FF9933;
+    transform: scale(1.1);
+  }
+  
+  /* Secciones */
+  section {
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #FFDD00;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  /* Tarjetas de personajes */
+  .personaje-card {
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+  }
+  
+  .personaje-card:hover {
+    transform: scale(1.05);
+    background-color: #FFD700; /* Color dorado similar a la Pokébola */
+    color: #1A1A1A;
+  }
+  
+  .personaje-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  /* Fondos de Pokémon */
+  section#inicio {
+    background: url('https://example.com/pokemon-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1A1A1A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer button {
+    background-color: #FF5733;
+  }
+  
+  footer button:hover {
+    background-color: #FF9933;
+  }
+  
